@@ -1,0 +1,22 @@
+---
+title: "Today's Mezz"
+format: 
+  dashboard: 
+    orientation: columns  
+---
+
+## Column {width="35%}
+placeholder text 
+
+## Column {width="65%"}
+### Row {height="10%"}
+placeholder
+
+```{r}
+#| echo: false
+#| include: false
+library(tidyverse)
+```
+
+```{r, starwars}
+

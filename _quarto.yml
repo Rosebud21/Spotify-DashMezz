@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Spotify-DashMezz"
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: about
+      - href: dashboard.qmd
+        text: dashboard
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+
+
+
